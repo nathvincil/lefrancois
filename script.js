@@ -84,10 +84,8 @@ function menu2()
       }else{
          document.getElementById("coloptn1").style.display = "none";
          
-        
       }
   // document.getElementById("coloptn1").style.display = "block";
-   document.getElementById("aboutp").style.display = "block";
 
    document.getElementById("b1").innerHTML.style.display.disabled = true;
 
@@ -103,12 +101,13 @@ function aboutsec(){
 
 
 if(document.getElementById("infoabout").style.display == "none")
-{
+{     
+   document.getElementById("aboutp").style.display = "block";
    document.getElementById("infoabout").style.display = "block"; 
 }else{
    document.getElementById("infoabout").style.display = "none";
-   
-  
+   document.getElementById("aboutp").style.display = "none";
+
 }
 
 }
