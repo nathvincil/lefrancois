@@ -78,7 +78,15 @@ function fctrngH()
 function menu2()
 {
   
-   document.getElementById("coloptn1").style.display = "block";
+   if(document.getElementById("coloptn1").style.display == "none")
+      {
+         document.getElementById("coloptn1").style.display = "block"; 
+      }else{
+         document.getElementById("coloptn1").style.display = "none";
+         
+        
+      }
+  // document.getElementById("coloptn1").style.display = "block";
    document.getElementById("aboutp").style.display = "block";
 
    document.getElementById("b1").innerHTML.style.display.disabled = true;
