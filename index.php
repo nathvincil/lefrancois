@@ -13,5 +13,11 @@ echo "\n toto=".$toto." et titi=".$titi."\n";
 */
 
 $unBolide = new voiture();
-$unBolide-> prix= 4000;
+//$unBolide-> prix= "allo"; //non fonctionnel parce que protected
+$unBolide-> setPrix("allo");
+$unBolide-> setPrix(5000);
+
 $unBolide->affiche();
+
+//echo $unBolide->prix; //non fonctionnel parce que protected
+echo $unBolide->getPrix();
