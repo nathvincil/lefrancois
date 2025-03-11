@@ -13,4 +13,5 @@ echo "\n toto=".$toto." et titi=".$titi."\n";
 */
 
 $unBolide = new voiture();
+$unBolide-> prix= 4000;
 $unBolide->affiche();
